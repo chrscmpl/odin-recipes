@@ -1,6 +1,7 @@
 img {
   height: 400px;
   width: auto;
+  border: 3px solid rgb(100, 62, 0);
 }
 
 * {
@@ -16,17 +17,44 @@ h3 {
 
 h1 {
   background-color: darkgoldenrod;
+  padding: 10px;
+  border: 3px solid rgb(100, 62, 0);
 }
 
-a {
+.homepage li {
   font-weight: 900;
+  font-size: 40px;
 }
 
 h3 {
   background-color: chocolate;
+  padding: 5px;
+  border: 2px solid rgb(113, 27, 1);
 }
 
 ol,
 ul {
   list-style: none;
+}
+
+.homepage li {
+  margin: 40px;
+}
+
+li {
+  margin: 15px;
+}
+
+.steps li {
+  margin: 30px;
+}
+
+ol,
+ul {
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.homepage h1 {
+  font-size: 70px;
 }
