@@ -58,3 +58,13 @@ ul {
 .homepage h1 {
   font-size: 70px;
 }
+
+.homepage img {
+  width: 980px;
+  height: auto;
+  margin-bottom: -500px;
+}
+
+.homepage a {
+  background-color: rgba(255, 255, 255, 0.7);
+}
