@@ -8,7 +8,7 @@ body {
   font-family: sans-serif;
   text-align: center;
   background-image: url(./images/background.jpg);
-  background-size: cover;
+  background-size:auto;
 }
 
 h1,
@@ -95,14 +95,9 @@ a:hover {
 }
 
 .container ul {
-  background-image: url(./images/cooking.jpg);
-  background-size: cover;
-  /* height: 500px; */
-}
-
-.container ul:hover {
+  background-color: rgba(255, 192, 203, 0.4);
   border: 3px solid rgb(100, 0, 93);
-}
+} 
 
 .homepage {
   display: flex;
@@ -139,5 +134,5 @@ a:hover {
 
 .section {
   width: 100%;
-  background-color: rgb(255, 0, 221);
+  background-color: rgba(255, 0, 221, 0.4);
 }
