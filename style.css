@@ -1,10 +1,10 @@
 img {
-  height: 400px;
+  height: 700px;
   width: auto;
   border: 3px solid rgb(100, 62, 0);
 }
 
-* {
+body {
   font-family: sans-serif;
   text-align: center;
   background-color: burlywood;
@@ -57,14 +57,85 @@ ul {
 
 .homepage h1 {
   font-size: 70px;
+  width: 50%;
 }
 
 .homepage img {
   width: 980px;
   height: auto;
-  margin-bottom: -500px;
+  margin-right: -500px;
+}
+
+a {
+  background-color: darkgoldenrod;
+  border: 1px solid rgb(100, 62, 0);
 }
 
 .homepage a {
-  background-color: rgba(255, 255, 255, 0.7);
+  border: 3px solid rgb(100, 62, 0);
+}
+
+a:hover {
+  background-color: chocolate;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.container ul {
+  background-image: url(/images/cooking.jpg);
+  background-size: cover;
+  /* height: 500px; */
+}
+
+.container ul:hover {
+  border: 3px solid rgb(100, 62, 0);
+}
+
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.recipe-page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recipe-page > div {
+  flex: 1 1 0;
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.side img {
+  width: 98%;
+}
+
+.section{
+  width: 100%;
+  background-color: rgb(255, 153, 0);
 }
