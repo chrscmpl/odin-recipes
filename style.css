@@ -1,13 +1,14 @@
 img {
   height: 700px;
   width: auto;
-  border: 3px solid rgb(100, 62, 0);
+  border: 3px solid rgb(100, 0, 93);
 }
 
 body {
   font-family: sans-serif;
   text-align: center;
-  background-color: burlywood;
+  background-image: url(./images/background.jpg);
+  background-size: cover;
 }
 
 h1,
@@ -16,9 +17,9 @@ h3 {
 }
 
 h1 {
-  background-color: darkgoldenrod;
+  background-color: rgb(184, 11, 181);
   padding: 10px;
-  border: 3px solid rgb(100, 62, 0);
+  border: 3px solid rgb(100, 0, 93);
 }
 
 .homepage li {
@@ -27,9 +28,9 @@ h1 {
 }
 
 h3 {
-  background-color: chocolate;
+  background-color: rgb(184, 11, 181);
   padding: 5px;
-  border: 2px solid rgb(113, 27, 1);
+  border: 2px solid rgb(100, 0, 93);
 }
 
 ol,
@@ -67,17 +68,14 @@ ul {
 }
 
 a {
-  background-color: darkgoldenrod;
-  border: 1px solid rgb(100, 62, 0);
+  background-color: rgb(184, 11, 181);
+  border: 1px solid rgb(100, 0, 93);
 }
 
 .homepage a {
-  border: 3px solid rgb(100, 62, 0);
+  border: 3px solid rgb(100, 0, 93);
 }
 
-a:hover {
-  background-color: chocolate;
-}
 
 a:link {
   color: black;
@@ -87,6 +85,10 @@ a:visited {
   color: black;
 }
 
+a:hover {
+  background-color: rgb(255, 0, 221);
+  color: white;
+}
 .container {
   display: flex;
   justify-content: center;
@@ -99,7 +101,7 @@ a:visited {
 }
 
 .container ul:hover {
-  border: 3px solid rgb(100, 62, 0);
+  border: 3px solid rgb(100, 0, 93);
 }
 
 .homepage {
@@ -137,5 +139,5 @@ a:visited {
 
 .section {
   width: 100%;
-  background-color: rgb(255, 153, 0);
+  background-color: rgb(255, 0, 221);
 }
