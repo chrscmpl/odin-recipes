@@ -70,6 +70,7 @@ ul {
 a {
   background-color: rgb(184, 11, 181);
   border: 1px solid rgb(100, 0, 93);
+  text-decoration: none;
 }
 
 .homepage a {
